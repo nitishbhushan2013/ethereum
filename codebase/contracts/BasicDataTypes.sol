@@ -1,4 +1,4 @@
-pragma solidity 0.4.0;
+pragma solidity 0.4.18;
 
 // Three ways of conversion 
     // 1. Implicit conversion
