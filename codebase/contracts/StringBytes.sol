@@ -29,8 +29,8 @@ contract StringBytes {
 
 
 
-1004 ending with 1004 has returned and delivered. req fof redispatch. call our customer care. 
+//1004 ending with 1004 has returned and delivered. req fof redispatch. call our customer care. 
 
-pin for credit card - 4862
+//pin for credit card - 4862
 
 
