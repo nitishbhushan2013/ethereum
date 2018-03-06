@@ -1,0 +1,179 @@
+{
+  "contractName": "calculator",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a723058202336465c2d38795aa97990a940697f5f36a8bc0bb29083fbb9776548a730e2e90029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a723058202336465c2d38795aa97990a940697f5f36a8bc0bb29083fbb9776548a730e2e90029",
+  "sourceMap": "26:72:1:-;;;50:46;;;;;;;;26:72;;;;;;",
+  "deployedSourceMap": "26:72:1:-;;;;;",
+  "source": "pragma solidity ^0.4.4;\n\n\ncontract calculator {\n  function calculator() {\n    // constructor\n  }\n}\n",
+  "sourcePath": "/Users/nitishbhushan/Documents/technical/tehnologies/ethereum/Truffle/calculator/contracts/calculator.sol",
+  "ast": {
+    "absolutePath": "/Users/nitishbhushan/Documents/technical/tehnologies/ethereum/Truffle/calculator/contracts/calculator.sol",
+    "exportedSymbols": {
+      "calculator": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "calculator",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "72:24:1",
+              "statements": []
+            },
+            "id": 62,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "calculator",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "69:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "72:0:1"
+            },
+            "scope": 63,
+            "src": "50:46:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:72:1"
+      }
+    ],
+    "src": "0:99:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/nitishbhushan/Documents/technical/tehnologies/ethereum/Truffle/calculator/contracts/calculator.sol",
+    "exportedSymbols": {
+      "calculator": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "calculator",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "72:24:1",
+              "statements": []
+            },
+            "id": 62,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "calculator",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "69:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "72:0:1"
+            },
+            "scope": 63,
+            "src": "50:46:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:72:1"
+      }
+    ],
+    "src": "0:99:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x345ca3e014aaf5dca488057592ee47305d9b3e10",
+      "transactionHash": "0x1bd3dcf7e465f9c52825fcc49dce26c2d12c7584651905d1b93b48b13f3e9d79"
+    }
+  },
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-03-06T11:02:10.947Z"
+}
