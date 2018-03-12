@@ -1,14 +1,27 @@
 pragma solidity ^0.4.4;
-// Specification of this contract 
-/* state = number and is set by the constructor
-State can be changed by the below operations
-addToNumber(uint num)
-substractFromNumber(uint num)
-multiplyByNumber(uint num)
-divideByNumber(uint num)
-*/
-contract calculator {
-  function calculator() {
-    // constructor
+
+
+contract Calculator {
+
+  uint outcome;
+
+  function Calculator(uint number) {
+    outcome= number;
   }
+
+  function getResult() constant returns (uint) {
+    return outcome;
+  }
+
+  function addToNumber(uint num) returns (uint) {
+    outcome += num;
+    return outcome; 
+  }
+
+  function substractFromNumber(uint num) returns (uint) {
+    outcome -= num;
+    return outcome; 
+  }
+
+
 }
